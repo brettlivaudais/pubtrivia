@@ -1,0 +1,143 @@
+
+
+[
+{
+    "name": "Craft Lounge Taproom",
+    "day": "Mondays", 
+    "time" : "7:00",
+	"long":"-116.9769961",
+	"lat":"33.9307741",
+    "address":"690 Beaumont Ave, Beaumont, CA 92223",
+    "logo_url":"https://www.thecraftloungebeer.com/uploads/b/5df4e9202e8557b1e48712585cadb9445a9d24edd4914e25a78fd5550070653e/2021-10-03_00-54-28_1633247680.png",
+    "url" :"www.thecraftloungebeer.com"
+},
+{
+    "name": "Sgt. Pepperoni's Pizza - Irvine",
+    "day": "Mondays", 
+    "time" : "7:00",
+    "lat":"33.6498385",
+    "long":"-117.8320505",
+    "address":"4533 Campus Dr, Irvine, CA 92612",
+    "logo_url":"https://sgtpepps.com/wp-content/uploads/2022/02/SgtPepps-logo-uai-258x172.png",
+    "url" :"sgtpepps.com"
+},
+{
+    "name": "Streamliner Lounge",
+    "day": "Tuesdays", 
+    "time" : "6:30",
+    "lat":"33.7889448",
+    "long":"-117.8572578",
+    "address":"186 N Atchison St, Orange, CA 92866",
+    "logo_url":"https://images.squarespace-cdn.com/content/v1/62dac58e8bc6bf5cccc21708/9837e459-143d-4399-81ba-516eb20069ee/sl+logo+james+9.14.16.png?format=1500w",
+    "url" :"www.thestreamlinerloungeorange.com"
+},
+{
+    "name": "Escape Craft Brewery",
+    "day": "Tuesdays", 
+    "time" : "7:00",
+    "lat":"34.0613884",
+    "long":"-117.2185973",
+    "address":"721 Nevada St #401, Redlands, CA 92373",
+    "logo_url":"https://static.wixstatic.com/media/f84fa5_2cf44ec257de42d79189eadf4451b118~mv2.png/v1/fill/w_71,h_71,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Escape-1-Color-Inside-Circle.png",
+    "url" :"escapecraftbrewery.com"
+},
+{
+    "name": "Safe Haus",
+    "day": "Tuesdays", 
+    "time" : "7:00p with Scotty",
+    "lat":"33.944339",
+    "long":"-117.2822215",
+    "address":"12125 Day St suite N-201, Moreno Valley, CA 92557",
+    "logo_url":"https://i.imgur.com/ag3Pdp0.png",
+    "url" :"https://www.instagram.com/safehausmv/"
+},
+{
+    "name": "Peninsula Tap House",
+    "day": "Tuesdays", 
+    "time" : "7:00",
+    "lat":"33.7482414",
+    "long":"-118.4060658",
+    "address":"31234 Palos Verdes Dr W suite b, Rancho Palos Verdes, CA 90275",
+    "logo_url":"https://i.imgur.com/9CpqEEd.png",
+    "url" :"peninsulataphouse.business.site"
+},
+{
+    "name": "Brewcaipa Brewing",
+    "day": "Wednesdays", 
+    "time" : "6:30",
+    "lat":"34.034025",
+    "long":"-117.0398661",
+    "address":"35058 Yucaipa Blvd, Yucaipa, CA 92399",
+    "logo_url":"https://lirp.cdn-website.com/b2ea7e8c/dms3rep/multi/opt/beer-3-640w.jpg",
+    "url" :"www.brewcaipa.com"
+},
+{
+    "name": "GreyWolf Brewing",
+    "day": "Wednesdays", 
+    "time" : "7:00p",
+    "lat":"33.9279055",
+    "long":"-117.5594224",
+    "address":"1780 Town and Country Dr #101, Norco, CA 92860",
+    "logo_url":"https://img1.wsimg.com/isteam/ip/9392acdf-aac2-48c8-bc27-6755bd5429bf/IMG_0142.JPG/:/cr=t:0.7%25,l:0%25,w:100%25,h:89.29%25/rs=w:600,h:300,cg:true",
+    "url" :"greywolfbrewing.com"
+},
+{
+    "name": "Haven City Market",
+    "day": "Wednesdays", 
+    "time" : "7:00p",
+    "lat":"34.1000997",
+    "long":"-117.5744508",
+    "address":"8443 Haven Ave, Rancho Cucamonga, CA 91730",
+    "logo_url":"https://static.wixstatic.com/media/dc6b96_4b566b1f44c346209a4f6acb93c2a774~mv2.png/v1/fill/w_312,h_110,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/HCM%20Formal%20Logo%20(B).png",
+    "url" :"havencitymarket.com"
+},
+    {
+    "name": "Harp Inn",
+    "day": "Wednesdays", 
+    "time" : "7:00p",
+    "lat":"-117.9206903",
+    "long":"33.6369999",
+    "address":"130 E 17th St, Costa Mesa, CA 92627",
+    "logo_url":"https://i.imgur.com/8LMsDwT.png",
+    "url":"www.harpinn.com"
+},
+{
+    "name": "Hangar 24 - Orange County",
+    "day": "Thursdays", 
+    "time" : "7:00p",
+    "lat":"33.6857591",
+    "long":"-117.8477846",
+    "address":"17877 Von Karman Ave Unit 110, Irvine, CA 92614",
+    "logo_url":"https://www.hangar24brewing.com/wp-content/uploads/2022/03/H24_Logo_Simplified-DarkBG-CMYK.png",
+    "url" :"hangar24brewing.com"
+},
+{
+    "name": "Brew N Chew",
+    "day": "Thursdays", 
+    "time" : "7:00p",
+    "lat":"34.049818",
+    "long":"-117.1979615",
+    "address":"1150 Brookside Ave J-1, Redlands, CA 92373",
+    "logo_url":"https://redlandsbrewnchew.com/wp-content/uploads/2021/03/brew-n-chew.gif",
+    "url" :"redlandsbrewnchew.com"
+},
+{
+    "name": "Our Brew",
+    "day": "Thursdays", 
+    "time" : "7:00p",
+    "lat":"34.0698547",
+    "long":"-117.235374",
+    "address":"2351 W Lugonia Ave Suite B, Redlands, CA 92374",
+    "logo_url":"https://www.drinkourbrew.com/uploads/b/2e0d43a9a5337bb8b745acf3bc86e11b8f271099ffa33be58356d3f67ca8d24c/thumbnail_OUR%20BREW%20wo%20BLACK%20Banner_1595007564.png?width=400",
+    "url" :"drinkourbrew.com"
+},
+{
+    "name": "Prohibition Brewing Company",
+    "day": "Thursdays",
+    "lat":"33.23046",
+    "long":"-117.226617",
+    "address":"2004 E Vista Way, Vista, CA 92084",
+    "logo_url":"https://i.imgur.com/tgVShnP.png",
+    "url" :"www.prohibitionbrewingcompany.com"
+}
+]
