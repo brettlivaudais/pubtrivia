@@ -29,24 +29,5 @@ class CitySeeder extends Seeder
             "county" => $county
           ]);
         }
-
-
-       /*
-       $json = File::get("database/seeders/data/city.json");
-       $cities = json_decode($json);
-
-       foreach ($cities as $key=>$value) {
-        if($value->latitude && $value->longitude) {
-            City::create([
-              "zip_code" => str_pad($value->zip_code, 5, '0', STR_PAD_LEFT),
-              "latitude" => $value->latitude,
-              "longitude" => $value->longitude,
-              "city" => $value->city,
-              "state" => $value->state,
-              "county" => $value->county
-            ]);
-          }
-       }
-       */
     }
 }

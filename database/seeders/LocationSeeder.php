@@ -6,7 +6,10 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\User;
 use App\Models\Location;
+use App\Models\Comment;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\DB;
 
 use File;
 
@@ -14,18 +17,22 @@ class LocationSeeder extends Seeder
 {
     public function run(): void
     {
-    /*
+    
+        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+        Comment::truncate();
         Location::truncate();
         User::truncate();
+        DB::statement('SET FOREIGN_KEY_CHECKS=1;');
 
         //Geeks Who Drink
         $user = new User([
             'name' => 'Geeks Who Drink',
             'email' => 'sample@example.com',
             'password' => Hash::make('test123'),
-            'account_type' => 'host'
+            'slug' => Str::slug('Geeks Who Drink')
         ]);
         $user->save();
+        $user->roles()->attach(2);
         $user_id = $user->id;
 
         $json = File::get("database/seeders/data/loc_geekswhodrink.json");
@@ -56,7 +63,7 @@ class LocationSeeder extends Seeder
               'published'=> 1,
             ]);
        }
-    */
+    
 
 
     //Pour House CA 
@@ -64,9 +71,10 @@ class LocationSeeder extends Seeder
         'name' => 'Pour House California',
         'email' => 'sample2@example.com',
         'password' => Hash::make('test123'),
-        'account_type' => 'host'
+        'slug' => Str::slug('Pour House California')
     ]);
     $user->save();
+    $user->roles()->attach(2);
     $user_id = $user->id;
 
     $json = File::get("database/seeders/data/loc_pourhouse.json");

@@ -15,15 +15,19 @@ class RolesTableSeeder extends Seeder
         $roles = [
             [
                 'name' => 'player',
+                'registerable' => '1'
             ],
             [
                 'name' => 'host',
+                'registerable' => '1'
             ],
             [
                 'name' => 'admin',
+                'registerable' => '0'
             ],
             [
                 'name' => 'author',
+                'registerable' => '0'
             ],
         ];
 

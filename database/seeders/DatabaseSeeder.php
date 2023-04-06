@@ -15,12 +15,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        /*
-        Location::factory()
-            ->count(1000)
-            ->create();*/
-
         //$this->call(CitySeeder::class);
+        //$this->call(RolesTableSeeder::class);
         $this->call(LocationSeeder::class);
     }
 }
