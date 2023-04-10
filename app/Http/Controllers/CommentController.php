@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Comment;
 use Illuminate\Support\Facades\Auth;
+use App\Models\Location;
 
 class CommentController extends Controller
 {
@@ -22,13 +23,15 @@ class CommentController extends Controller
     public function store(Request $request)
     {
         if(Auth::id()) {
+            $location = Location::findOrFail($request->location_id);
+
             $comment = new Comment();
             $comment->user_id = Auth::id();
             $comment->location_id = $request->input('location_id');
             $comment->comment = $request->input('comment');
             $comment->save();
         }
-        return redirect()->route('locations.show', $request->location_id);
+        return redirect()->route('locations.show', $location->slug);
     }
 
 
