@@ -30,7 +30,7 @@ $( document ).ready(function() {
       } else {
         var action = 'add';
       }
-      var url =  "http://pubtrivia.test/api/favorite/" + action + '/' +  $(this).attr('location_id');
+      var url =  "/api/favorite/" + action + '/' +  $(this).attr('location_id');
       $.ajax(
           url, {
           dataType: 'json',
@@ -58,7 +58,7 @@ $( document ).ready(function() {
       $(this).nextAll('i').removeClass('active');
 
       var rating = $(this).data('rating');
-      var url =  "http://pubtrivia.test/api/rating/add/" + $(".favorite_location").first().attr('location_id') + '/' + rating;
+      var url =  "/api/rating/add/" + $(".favorite_location").first().attr('location_id') + '/' + rating;
       $.ajax(
           url, {
           dataType: 'json',
@@ -132,7 +132,7 @@ $( document ).ready(function() {
         if($(this).val().length > 2) {
             $("#auto_complete").css("display", "block").html('');
             $("#getLocation").html('<i class="fa-solid fa-gear fa-spin"></i>');
-            $.getJSON( "http://pubtrivia.test/api/autocomplete/" +  $(this).val(), function( data ) {
+            $.getJSON( "/api/autocomplete/" +  $(this).val(), function( data ) {
                 var items = [];
                 $.each( data, function( key, val ) {
                     items.push( "<li><a class='dropdown-item' href='#'>" + val.city + ', ' + val.state + "</a></li>" );
@@ -171,103 +171,111 @@ $( document ).ready(function() {
 
 });
 
-        var map;
-        var markers = new Array;
-        var zoomlevels = {
-          5: 11,
-          15: 10,
-          25: 9,
-          50: 8
-        }
-        var delim = '|';
+  var map;
+  var markers = new Array;
+  var zoomlevels = {
+    5: 11,
+    15: 10,
+    25: 9,
+    50: 8
+  }
+  var delim = '|';
 
-        function initMap() {
+  function initMap() {
 
-          var lat = parseFloat(getCookie('lat'));
-          var long = parseFloat(getCookie('long'));
-         
-          if(lat && long) {
-            showMap(null,lat,long);
-          } else if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(showMap);
-          } else {
-            lat =  34.052235;
-            long = -118.243683;
-            showMap(null,lat,long);
-          }
-        }
+    lat =  34.052235;
+    long = -118.243683;
+    showMap(null,lat,long);
 
-        function showMap(position,latitude,longitude) {
-          // Get the user's latitude and longitude
-          if(position) {
-            var latitude = position.coords.latitude;
-            var longitude = position.coords.longitude;
-          }
-        
-          // Create a map centered at the user's location
-          map = new google.maps.Map(document.getElementById("map"), {
-            center: { lat: latitude, lng: longitude },
-            zoom: 10,
-          });
+    var lat = parseFloat(getCookie('lat'));
+    var long = parseFloat(getCookie('long'));
+    
+    if(lat && long) {
+      showMap(null,lat,long);
+    } else if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(showMap);
+    } else {
+      lat =  34.052235;
+      long = -118.243683;
+      showMap(null,lat,long);
+    }
+  }
 
-          
-          google.maps.event.addListener(map, 'dragend', function() {
-          
-            var newCenter = map.getCenter();
-            var bounds = map.getBounds();
-            var coordinates = bounds.getSouthWest() + delim + bounds.getNorthEast();
-            coordinates = coordinates.replaceAll("(",'').replaceAll(")",'').replaceAll(" ",'').replaceAll(",",delim);
+  function showMap(position,latitude,longitude) {
 
-            setCookie('lat', newCenter.lat(), 365);
-            setCookie('long', newCenter.lng(), 365);
-            
-            var geocoder = new google.maps.Geocoder();
-            geocoder.geocode({'location': map.getCenter()}, function(results, status) {
-              if (status === 'OK') {
-                if (results[0]) {
-                  var addressComponents = results[0].address_components;
-                  for (var i = 0; i < addressComponents.length; i++) {
-                    var types = addressComponents[i].types;
-                    if (types.indexOf('locality') !== -1) {
-                      var cityName = addressComponents[i].long_name;
-                    }
-                    if (types.indexOf("administrative_area_level_1") !== -1) {
-                      var stateAbbr = addressComponents[i].short_name;
-                    }
-                  }
-                  if(cityName && stateAbbr) {
-                    $("#location_search").val(cityName + ', ' + stateAbbr);
-                  }
-                  searchMap('','',coordinates);
-                } else {
-                  console.log('No results found');
-                }
-              } else {
-                console.log('Geocoder failed due to:', status);
+    console.log('showMap');
+
+    // Get the user's latitude and longitude
+    if(position) {
+      var latitude = position.coords.latitude;
+      var longitude = position.coords.longitude;
+    }
+  
+    // Create a map centered at the user's location
+    map = new google.maps.Map(document.getElementById("map"), {
+      center: { lat: latitude, lng: longitude },
+      zoom: 10,
+    });
+
+    
+    google.maps.event.addListener(map, 'dragend', function() {
+    
+      var newCenter = map.getCenter();
+      var bounds = map.getBounds();
+      var coordinates = bounds.getSouthWest() + delim + bounds.getNorthEast();
+      coordinates = coordinates.replaceAll("(",'').replaceAll(")",'').replaceAll(" ",'').replaceAll(",",delim);
+
+      setCookie('lat', newCenter.lat(), 365);
+      setCookie('long', newCenter.lng(), 365);
+      
+      var geocoder = new google.maps.Geocoder();
+      geocoder.geocode({'location': map.getCenter()}, function(results, status) {
+        if (status === 'OK') {
+          if (results[0]) {
+            var addressComponents = results[0].address_components;
+            for (var i = 0; i < addressComponents.length; i++) {
+              var types = addressComponents[i].types;
+              if (types.indexOf('locality') !== -1) {
+                var cityName = addressComponents[i].long_name;
               }
-            });
-          
-          });
-          
-          google.maps.event.addListener(map, 'zoom_changed', function() {
-            var bounds = map.getBounds();
-            var coordinates = bounds.getSouthWest() + delim + bounds.getNorthEast();
-            coordinates = coordinates.replaceAll("(",'').replaceAll(")",'').replaceAll(" ",'').replaceAll(",",delim);
+              if (types.indexOf("administrative_area_level_1") !== -1) {
+                var stateAbbr = addressComponents[i].short_name;
+              }
+            }
+            if(cityName && stateAbbr) {
+              $("#location_search").val(cityName + ', ' + stateAbbr);
+            }
             searchMap('','',coordinates);
-          });
-
-          google.maps.event.addListenerOnce(map, 'tilesloaded', function() {
-            var bounds = map.getBounds();
-            var coordinates = bounds.getSouthWest() + delim + bounds.getNorthEast();
-            coordinates = coordinates.replaceAll("(",'').replaceAll(")",'').replaceAll(" ",'').replaceAll(",",delim);
-            searchMap('','',coordinates);
-          });
-
-          
-        
+          } else {
+            console.log('No results found');
+          }
+        } else {
+          console.log('Geocoder failed due to:', status);
         }
-        
-        window.initMap = initMap;
+      });
+    
+    });
+    
+    google.maps.event.addListener(map, 'zoom_changed', function() {
+      var bounds = map.getBounds();
+      var coordinates = bounds.getSouthWest() + delim + bounds.getNorthEast();
+      coordinates = coordinates.replaceAll("(",'').replaceAll(")",'').replaceAll(" ",'').replaceAll(",",delim);
+      searchMap('','',coordinates);
+    });
+
+    google.maps.event.addListenerOnce(map, 'tilesloaded', function() {
+      var bounds = map.getBounds();
+      var coordinates = bounds.getSouthWest() + delim + bounds.getNorthEast();
+      coordinates = coordinates.replaceAll("(",'').replaceAll(")",'').replaceAll(" ",'').replaceAll(",",delim);
+      searchMap('','',coordinates);
+    });
+
+    
+  
+  }
+  
+  window.initMap = initMap;
+
 
 
 
@@ -280,9 +288,9 @@ function searchMap(search,distance,coordinates) {
       $("#locations").html('<div style="text-align:center"><i class="fa-solid fa-gear fa-spin" style="font-size: 250px; opacity: 0.15; padding-left:14px"></i></div>');
       
       if(search) {
-          var url = "http://pubtrivia.test/api/search/?search=" +  search + "&distance=" + distance;
+          var url = "/api/search/?search=" +  search + "&distance=" + distance;
       } else if (coordinates) {
-          var url = "http://pubtrivia.test/api/search/?coordinates=" +  coordinates;
+          var url = "/api/search/?coordinates=" +  coordinates;
       }
       
       
