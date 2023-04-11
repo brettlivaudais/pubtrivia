@@ -3,6 +3,7 @@
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\LocationController;
 use App\Http\Controllers\WelcomeController;
+use App\Http\Controllers\MessageController;
 use App\Http\Controllers\UserController;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
@@ -42,3 +43,7 @@ Route::put('/profile/update/', [UserController::class, 'update'])->name('users.u
 Route::get('/profile/{slug}', [UserController::class, 'show'])->name('users.show');
 Route::get('/cities/{state}/{city}', [LocationController::class, 'city'])->name('locations.city');
 Route::get('/host/{slug}', [LocationController::class, 'host'])->name('locations.host');
+
+Route::get('/messages', [MessageController::class, 'mailbox'])->name('messages.mailbox');
+Route::get('/messages/{slug}', [MessageController::class, 'conversation'])->name('messages.conversation');
+Route::post('/messages', [MessageController::class, 'store'])->name('messages.store');

@@ -35,4 +35,5 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('favorite/add/{location_id}', [UserFavoriteController::class, 'add']);
     Route::get('favorite/remove/{location_id}', [UserFavoriteController::class, 'remove']);
     Route::get('rating/add/{location_id}/{rating}', [UserLocationRatingController::class, 'addOrUpdateRating']);
+    Route::post('/messages/{recipient_id}', [MessageController::class, 'store']);
 });

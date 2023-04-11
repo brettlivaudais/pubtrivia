@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Location;
+use App\Models\UserFavorite;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -27,8 +28,14 @@ class HomeController extends Controller
     {
         $user = Auth::user();
 
-        $locations = Location::where('user_id', $user->id)->get();
+        if($user->hasRole('player')) {
+            $favorites = UserFavorite::where('user_id', $user->id)->get();
+            return view('home',['favorites'=>$favorites, 'user'=>$user]);
+        } else if ($user->hasRole('host')) {
+            $locations = Location::where('user_id', $user->id)->get();
+            return view('home',['locations'=>$locations, 'user'=>$user]);
+        }
 
-        return view('home',['locations'=>$locations, 'user'=>$user]);
+
     }
 }

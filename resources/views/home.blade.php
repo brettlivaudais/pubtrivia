@@ -14,6 +14,8 @@
         </div>
     @endif
 
+
+    @if($user->hasRole('host'))
     <a href="{{ route('locations.create') }}" class="btn btn-primary float-right" ><i class="fa-solid fa-circle-plus"></i> New Location</a>
     <h1>Locations</h1>
 
@@ -74,8 +76,17 @@
                 @endforeach
             </tbody>
         </table>
+    @endif
 
 
 
+    @if($user->hasRole('player'))
+    <h1>Favorite Locations</h1>
+        <div class="row" data-masonry='{"percentPosition": true }'>
+            @foreach ($favorites as $favorite)
+                @include('locations.parts.location_box',['location' => $favorite->location])
+            @endforeach
+        </div>
+    @endif
 </div>
 @endsection

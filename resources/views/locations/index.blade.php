@@ -7,7 +7,7 @@
         @endif
         <div class="row" data-masonry='{"percentPosition": true }'>
             @foreach ($locations as $location)
-                @include('locations.parts.location_box',$location)
+                @include('locations.parts.location_box',['location'=>$location])
             @endforeach
         </div> 
     </div>
