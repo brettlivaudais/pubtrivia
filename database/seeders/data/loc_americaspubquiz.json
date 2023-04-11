@@ -1,154 +1,188 @@
 [
-{
-"name": "Mudrock's Tap & Tavern",
-"day": "Thursday",
-"time": "7:30",
-"address": "585 E South Boulder Rd",
-"city": "Louisville",
-"state": "CO",
-"logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/Mudrocks.png"
-},
-{
-"name": "Temecula Brewing",
-"day": "Wednesday",
-"time": "6:00",
-"address": "32125 Temecula Pkwy",
-"city": "Temecula",
-"state": "CA",
-"logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/ZEhxW1c1qXsgqNEbzG5Gmn2wLcXjXYEWxwGo0xwT.png"
-},
-{
-"name": "Wild Barrel Brewing",
-"day": "Wednesday",
-"time": "6:30",
-"address": "692 Rancheros Dr",
-"city": "San Marcos",
-"state": "CA",
-"logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/M2ovd4gBdR8HXTYUpTU6vO7s55xR1T5SRdvqZtjw.jpg"
-},
-{
-"name": "Solaris Beer & Blending",
-"day": "Wednesday",
-"time": "7:00",
-"address": "41601B Cherry St",
-"city": "Murrieta",
-"state": "CA",
-"logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/XtvMcBnzrJXXLvPWi17u75knrcmsuhETNQHgxUNI.png"
-},
-{
-"name": "Bear Roots Brewing Co Taproom",
-"day": "Wednesday",
-"time": "7:00",
-"address": "135 E Broadway",
-"city": "Vista",
-"state": "CA",
-"logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/JuyE5v864fD3xOFDxkwDNhq2Q1xZXoRbebxHGMwh.png"
-},
-{
-"name": "Long Beach Brewing Lab",
-"day": "Wednesday",
-"time": "7:00",
-"address": "518 W Willow St",
-"city": "Long Beach",
-"state": "CA",
-"logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/w05rJkmiLOAbKwbDVeXDY9Kvs2pW2Lj0g94Z9NSb.png"
-},
-{
-"name": "O'Malley's On Main",
-"day": "Thursday",
-"time": "7:00",
-"address": "140 Main St",
-"city": "Seal Beach",
-"state": "CA",
-"logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/O%27Malley%27s-On-Main.png"
-},
-{
-"name": "Wild Barrel Brewing",
-"day": "Thursday",
-"time": "7:00",
-"address": "41493 Margarita Rd G106",
-"city": "Temecula",
-"state": "CA",
-"logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/RiUeLy4GFoiXBOfkngOzjs6318lhC9tsXJmj4uDL.png"
-},
-{
-"name": "Inland Wharf Brewing Co",
-"day": "Sunday",
-"time": "4:00",
-"address": "26440 Jefferson Ave",
-"city": "Murrieta",
-"state": "CA",
-"logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/2v8vlu3zGocoB75B9qHAIYHSWZvltBCDlWdNL9qx.png"
-},
-{
-"name": "Bear Roots Brewing Co Brewery",
-"day": "Monday",
-"time": "6:00",
-"address": "1213 S Santa Fe Ave",
-"city": "Vista",
-"state": "CA",
-"logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/6XbENvDWPm4AJFIGCQIurbm49Wf3yIF5PfUGULTC.png"
-},
-{
-"name": "The Mill",
-"day": "Monday",
-"time": "6:00",
-"address": "838 E Mission Rd",
-"city": "Fallbrook",
-"state": "CA",
-"logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/tGkw9HfUAjqEZxuzRn6GuK261oeIUnwnzKOTixd8.png"
-},
-{
-"name": "The Champion Sports Pub",
-"day": "Monday",
-"time": "7:00",
-"address": "39400 Murrieta Hot Springs Rd Ste 123 A",
-"city": "Murrieta",
-"state": "CA",
-"logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/0szIdYJ7VNDTwLdLVVK1yld19SxINrBch1fh2bcZ.png"
-},
-{
-"name": "Auld Dubliner",
-"day": "Monday",
-"time": "7:00",
-"address": "71 S Pine Ave",
-"city": "Long Beach",
-"state": "CA",
-"logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/0aV6tlBmIaKQV32KfYtgbtGGmvdeMs7bzDyrh8Xc.png"
-},
-{
-"name": "Devilicious Eatery",
-"day": "Tuesday",
-"time": "6:00",
-"address": "28693 Old Town Front St",
-"city": "Temecula",
-"state": "CA",
-"logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/Devilicious.png"
-},
-{
-"name": "Craft Brewing Company",
-"day": "Tuesday",
-"time": "6:30",
-"address": "17600 Collier Ave, Ste F147A",
-"city": "Lake Elsinore",
-"state": "CA",
-"logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/xURyR7LvaIlRlENQJ0D4qyzhCULDDHTtaVcdVzsm.png"
-},
-{
-"name": "Barrel & Stave Pour House",
-"day": "Tuesday",
-"time": "7:00",
-"address": "206 Main St",
-"city": "Vista",
-"state": "CA",
-"logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/RZzw2dePEayabYAETlyeo8M18IQHvXe31Y2nSoXP.jpg"
-},
-{
-"name": "2nd Floor",
-"day": "Tuesday",
-"time": "8:00",
-"address": "126 Main St",
-"city": "Huntington Beach",
-"state": "CA",
-"logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/thO3HXY8N9.jpg"
-}]
+    {
+        "name": "Mudrock's Tap & Tavern",
+        "day": "Thursdays",
+        "time": "7:30",
+        "address": "585 E South Boulder Rd",
+        "city": "Louisville",
+        "state": "CO",
+        "logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/Mudrocks.png",
+        "latitude": 39.969807,
+        "longitude": -105.143222
+        },
+        {
+        "name": "Temecula Brewing",
+        "day": "Wednesdays",
+        "time": "6:00",
+        "address": "32125 Temecula Pkwy",
+        "city": "Temecula",
+        "state": "CA",
+        "logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/ZEhxW1c1qXsgqNEbzG5Gmn2wLcXjXYEWxwGo0xwT.png",
+        "latitude": 33.506649,
+        "longitude": -117.140638
+        },
+        {
+        "name": "Wild Barrel Brewing",
+        "day": "Wednesdays",
+        "time": "6:30",
+        "address": "692 Rancheros Dr",
+        "city": "San Marcos",
+        "state": "CA",
+        "logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/M2ovd4gBdR8HXTYUpTU6vO7s55xR1T5SRdvqZtjw.jpg",
+        "latitude": 33.144786,
+        "longitude": -117.194445
+        },
+        {
+        "name": "Solaris Beer & Blending",
+        "day": "Wednesdays",
+        "time": "7:00",
+        "address": "41601B Cherry St",
+        "city": "Murrieta",
+        "state": "CA",
+        "logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/XtvMcBnzrJXXLvPWi17u75knrcmsuhETNQHgxUNI.png",
+        "latitude": 33.555876,
+        "longitude": -117.182999
+        },
+        {
+        "name": "Bear Roots Brewing Co Taproom",
+        "day": "Wednesdays",
+        "time": "7:00",
+        "address": "135 E Broadway",
+        "city": "Vista",
+        "state": "CA",
+        "logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/JuyE5v864fD3xOFDxkwDNhq2Q1xZXoRbebxHGMwh.png",
+        "latitude": 33.202452,
+        "longitude": -117.241312
+        },
+        {
+            "name": "Long Beach Brewing Lab",
+            "day": "Wednesdays",
+            "time": "7:00",
+            "address": "518 W Willow St",
+            "city": "Long Beach",
+            "state": "CA",
+            "logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/w05rJkmiLOAbKwbDVeXDY9Kvs2pW2Lj0g94Z9NSb.png",
+            "latitude": 33.827968,
+            "longitude": -118.210297
+        },
+        {
+            "name": "O'Malley's On Main",
+            "day": "Thursdays",
+            "time": "7:00",
+            "address": "140 Main St",
+            "city": "Seal Beach",
+            "state": "CA",
+            "logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/O%27Malley%27s-On-Main.png",
+            "latitude": "33.73959",
+            "longitude": "-118.10868"
+        },
+        {
+            "name": "Wild Barrel Brewing",
+            "day": "Thursdays",
+            "time": "7:00",
+            "address": "41493 Margarita Rd G106",
+            "city": "Temecula",
+            "state": "CA",
+            "logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/RiUeLy4GFoiXBOfkngOzjs6318lhC9tsXJmj4uDL.png",
+            "latitude": "33.52486",
+            "longitude": "-117.15555"
+        },
+        {
+            "name": "Inland Wharf Brewing Co",
+            "day": "Sundays",
+            "time": "4:00",
+            "address": "26440 Jefferson Ave",
+            "city": "Murrieta",
+            "state": "CA",
+            "logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/2v8vlu3zGocoB75B9qHAIYHSWZvltBCDlWdNL9qx.png",
+            "latitude": "33.56284",
+            "longitude": "-117.18424"
+        },
+        {
+            "name": "Bear Roots Brewing Co Brewery",
+            "day": "Mondays",
+            "time": "6:00",
+            "address": "1213 S Santa Fe Ave",
+            "city": "Vista",
+            "state": "CA",
+            "logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/6XbENvDWPm4AJFIGCQIurbm49Wf3yIF5PfUGULTC.png",
+            "latitude": "33.18728",
+            "longitude": "-117.24141"
+        },
+        {
+            "name": "The Mill",
+            "day": "Mondays",
+            "time": "6:00",
+            "address": "838 E Mission Rd",
+            "city": "Fallbrook",
+            "state": "CA",
+            "logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/tGkw9HfUAjqEZxuzRn6GuK261oeIUnwnzKOTixd8.png",
+            "latitude": "33.38562990496778",
+            "longitude": "-117.24316330232814"
+        },
+        {
+            "name": "The Champion Sports Pub",
+            "day": "Mondays",
+            "time": "7:00",
+            "address": "39400 Murrieta Hot Springs Rd Ste 123 A",
+            "city": "Murrieta",
+            "state": "CA",
+            "logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/0szIdYJ7VNDTwLdLVVK1yld19SxINrBch1fh2bcZ.png",
+            "latitude": 33.573437,
+            "longitude": -117.168011
+          },
+          {
+            "name": "Auld Dubliner",
+            "day": "Mondays",
+            "time": "7:00",
+            "address": "71 S Pine Ave",
+            "city": "Long Beach",
+            "state": "CA",
+            "logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/0aV6tlBmIaKQV32KfYtgbtGGmvdeMs7bzDyrh8Xc.png",
+            "latitude": 33.767369,
+            "longitude": -118.191275
+          },
+          {
+            "name": "Devilicious Eatery",
+            "day": "Tuesdays",
+            "time": "6:00",
+            "address": "28693 Old Town Front St",
+            "city": "Temecula",
+            "state": "CA",
+            "logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/Devilicious.png",
+            "latitude": 33.494200,
+            "longitude": -117.149940
+          },
+          {
+            "name": "Craft Brewing Company",
+            "day": "Tuesdays",
+            "time": "6:30",
+            "address": "17600 Collier Ave, Ste F147A",
+            "city": "Lake Elsinore",
+            "state": "CA",
+            "logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/xURyR7LvaIlRlENQJ0D4qyzhCULDDHTtaVcdVzsm.png",
+            "latitude": 33.667180,
+            "longitude": -117.363300
+          },
+          {
+            "name": "Barrel & Stave Pour House",
+            "day": "Tuesdays",
+            "time": "7:00",
+            "address": "206 Main St",
+            "city": "Vista",
+            "state": "CA",
+            "logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/RZzw2dePEayabYAETlyeo8M18IQHvXe31Y2nSoXP.jpg",
+            "latitude": 33.204540,
+            "longitude": -117.243030
+          },
+          {
+            "name": "2nd Floor",
+            "day": "Tuesdays",
+            "time": "8:00",
+            "address": "126 Main St",
+            "city": "Huntington Beach",
+            "state": "CA",
+            "logo_url": "https://apq-assets.s3.us-west-2.amazonaws.com/venue-thumbnail/thO3HXY8N9.jpg",
+            "latitude": 33.6594363,
+            "longitude": -118.0008181
+        }]

@@ -5,8 +5,9 @@ use GuzzleHttp\Client;
 
 class PositionStackHelper
 {
-    public static function getLocationByLatLong($lat,$long) 
+    public static function getLocationByLatLong($latitude,$longitude) 
     {
+        /*
         $apiKey = env('POSITIONSTACK_API_KEY');
         $client = new Client();
         $response = $client->request('GET', 'http://api.positionstack.com/v1/reverse', [
@@ -17,6 +18,14 @@ class PositionStackHelper
         ]);
         $body = $response->getBody();
         return $body;
+        */
+
+        $apiKey = env('POSITIONSTACK_API_KEY');
+        $url = "http://api.positionstack.com/v1/reverse?access_key=$apiKey&query=$latitude,$longitude";
+        $client = new Client();
+        $response = $client->get($url);
+        $locationInfo = json_decode($response->getBody(), true);
+        return $locationInfo['data'][0];
     }
 
     public static function getLatLongbyAddress($address)

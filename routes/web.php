@@ -31,7 +31,9 @@ Route::get('/', [WelcomeController::class, 'index'])->name('welcome');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/locations', [LocationController::class,'index'])->name('locations.index');
 Route::get('/location/new', [LocationController::class, 'create'])->name('locations.create');
+Route::get('/locations/fix', [LocationController::class, 'fixer'])->name('locations.fixer');
 Route::post('/locations', [LocationController::class, 'store'])->name('locations.store');
+
 Route::get('/locations/{slug}', [LocationController::class, 'show'])->name('locations.show');
 Route::get('/preview/{slug}', [LocationController::class, 'show'])->name('locations.preview');
 Route::get('/locations/{id}/edit', [LocationController::class, 'edit'])->name('locations.edit');

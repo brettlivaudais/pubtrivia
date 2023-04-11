@@ -20,13 +20,12 @@ class LocationController extends Controller
 {
     public function index()
     {
-        $locations = Location::all();
-        return view('locations.index', compact('locations'));
+        //$locations = Location::select('city,stall();
+        //return view('locations.index', ['locations'=>[], 'city'=>null, 'state' => null]);
     }
 
     public function city($state,$city)
     {
-
         $locations = Location::where('city', $city)
                     ->where('state', $state)
                     ->get();
@@ -68,8 +67,7 @@ class LocationController extends Controller
             $path = $request->file('logo_upload')->store('public/images');
             $location->logo_url = Storage::url($path);
         }
-
-
+        
         $location->published = $request->has('published');
         
         $user = Auth::user();
@@ -83,8 +81,6 @@ class LocationController extends Controller
     public function show($slug)
     {
         $location = Location::with('user')->with('comments.user')->where('slug',$slug)->first();
-    
-
         $user = Auth::user();
         $rating = 0;
         $is_favorite = false;
@@ -94,8 +90,7 @@ class LocationController extends Controller
             }
             $rating = UserLocationRating::where('location_id','=',$location->id)->where('user_id','=',$user->id)->first()->rating ?? 0;
         }
-
-        
+     
         if($location->ratings) {
             $avgRating = $location->averageRating();
         }
@@ -246,6 +241,81 @@ class LocationController extends Controller
                 return response()->json($error);
             }
         }
+    }
+
+    public function fixer()
+    {
+        echo "<pre>";
+        //find any location without a slug, give it one
+        $locations = Location::where('slug', null)->get();
+        foreach($locations as $location) {
+            $update_location = Location::find($location->id);
+            $update_location->slug = $this->makeSlug($location->name,'locations'); 
+            echo $location->name . ': ' . $update_location->slug . '<br>';
+            $update_location->save(); 
+        }
+
+        //find any location without latitude and longitude
+        $locations = Location::where('lat', null)->get();
+        foreach($locations as $location) {
+            $position = PositionStackHelper::getLatLongbyAddress($location->address . ", " . $location->city . ', ' . $location->state . ' ' . $location->zip);
+       
+            $update_location = Location::find($location->id);
+            $update_location->lat = $position['latitude'];
+            $update_location->long = $position['longitude'];
+            echo $location->name . ': ' . $position['latitude'] . ',' . $position['longitude'] . '<br>';
+            $update_location->save();
+        }
+
+        //find any location without a city, state, or zip
+        $locations = Location::where('zip', null)->orWhere('city',null)->orWhere('state',null)->get();
+        foreach($locations as $location) {
+            $position = PositionStackHelper::getLocationByLatLong($location->lat,$location->long);
+            $update_location = Location::find($location->id);
+            
+            echo $location->name . " (".$location->lat . ',' . $location->long .") <br>";
+            
+            if(!$location->city) {
+                $update_location->city = $position['locality'];
+            }
+
+            if(!$location->state) {
+                $update_location->state = $position['region_code'];
+            }
+
+            if(!$location->zip && $position['postal_code']) {
+                $update_location->zip = $position['postal_code'];
+            }
+            
+            $update_location->street = serialize($position);
+            
+            $update_location->save();
+            
+        }
+
+        //fix geeks who drink
+        //$locations = Location::where('user_id', 1)->offset(1)->limit(2)->get();
+        $locations = Location::where('city', 'LIKE', '%[0-9]%')->limit(1)->get();
+        foreach($locations as $location) {
+            $position = PositionStackHelper::getLatLongbyAddress($location->address);
+            $update_location = Location::find($location->id);
+
+            print_r($position);
+            echo "<hr>";
+
+            if(array_key_exists('locality',$position)) $update_location->city = $position['locality'];
+            if(array_key_exists('region_code',$position)) $update_location->state = $position['region_code'];
+            if(array_key_exists('postal_code',$position)) $update_location->zip = $position['postal_code'];
+           
+            $update_location->street = serialize($position);
+            $update_location->description = '1';
+            
+            $update_location->save();
+            
+        }
+
+        
+        die();
     }
 
     public function makeSlug($title, $table)

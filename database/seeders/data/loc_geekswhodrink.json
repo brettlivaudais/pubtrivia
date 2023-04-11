@@ -642,7 +642,7 @@
 	"lat":"37.9294204",
 	"long":"-122.0247023",
 	"name":"Calicraft Brewing Company",
-	"address":"2700 Mitchell Dr Walnut Creek, CA 94598",
+	"address":"2700 Mitchell Dr, Walnut Creek, CA 94598",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1508265863299",
 	"day":"Tuesdays",
 	"time":"2021-06-23T01:00:00+0000"
@@ -660,7 +660,7 @@
 	"lat":"32.214412",
 	"long":"-110.9595118",
 	"name":"Barrio Brewing Co.",
-	"address":"800 E 16th St. Tucson, AZ 85719",
+	"address":"800 E 16th St., Tucson, AZ 85719",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1561583425263",
 	"day":"Mondays",
 	"time":"2021-06-15T01:00:00+0000"
@@ -678,7 +678,7 @@
 	"lat":"37.6621303",
 	"long":"-122.4030787",
 	"name":"The Standby",
-	"address":"935 Airport Blvd. South San Francisco, CA 94080",
+	"address":"935 Airport Blvd. South, San Francisco, CA 94080",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1660076462968",
 	"day":"Wednesdays",
 	"time":"2022-09-15T00:00:00+0000"
@@ -687,7 +687,7 @@
 	"lat":"37.796638",
 	"long":"-122.272736",
 	"name":"Seawolf Public House",
-	"address":"350 4th Street Oakland, CA 94607",
+	"address":"350 4th Street, Oakland, CA 94607",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1625598074756",
 	"day":"Wednesdays",
 	"time":"2021-07-29T01:00:00+0000"
@@ -696,7 +696,7 @@
 	"lat":"32.2365917",
 	"long":"-110.8945535",
 	"name":"Craft, A Modern Drinkery",
-	"address":"4603 E Speedway Blvd Tucson, AZ 85712",
+	"address":"4603 E Speedway Blvd, Tucson, AZ 85712",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1556130198102",
 	"day":"Thursdays",
 	"time":"2021-07-16T01:00:00+0000"
@@ -705,7 +705,7 @@
 	"lat":"37.7966896",
 	"long":"-122.2751719",
 	"name":"Federation Brewing",
-	"address":"420 3rd Street - Unit A Oakland, CA 94607",
+	"address":"420 3rd Street - Unit A, Oakland, CA 94607",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1639186682132",
 	"day":"Thursdays",
 	"time":"2022-01-14T02:00:00+0000"
@@ -714,7 +714,7 @@
 	"lat":"38.010007",
 	"long":"-122.0390849",
 	"name":"Epidemic Ales",
-	"address":"150 Mason Circle Ste. J Concord, CA 94520",
+	"address":"150 Mason Circle Ste. J, Concord, CA 94520",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1626892521575",
 	"day":"Thursdays",
 	"time":"2021-07-09T00:30:00+0000"
@@ -723,7 +723,7 @@
 	"lat":"32.2502114",
 	"long":"-110.8432584",
 	"name":"The Canyon&#039;s Crown Restaurant &amp; Pub",
-	"address":"6958 E. Tanque Verde Rd. Tucson, AZ 85715",
+	"address":"6958 E. Tanque Verde Rd., Tucson, AZ 85715",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1506413569148",
 	"day":"Thursdays",
 	"time":"2021-06-18T02:00:00+0000"
@@ -732,7 +732,7 @@
 	"lat":"37.8734032",
 	"long":"-122.2688467",
 	"name":"Triple Rock Brewery",
-	"address":"1920 Shattuck Ave Berkeley, CA 94704",
+	"address":"1920 Shattuck Ave, Berkeley, CA 94704",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1661877894299",
 	"day":"Wednesdays",
 	"time":"2021-08-26T02:00:00+0000"
@@ -750,7 +750,7 @@
 	"lat":"37.7562198",
 	"long":"-122.419185",
 	"name":"Bear vs Bull @Alamo Drafthouse New Mission",
-	"address":"2550 Mission St. San Francisco, CA 94110",
+	"address":"2550 Mission St., San Francisco, CA 94110",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1643398692874",
 	"day":"Mondays",
 	"time":"2022-02-22T03:00:00+0000"
@@ -759,7 +759,7 @@
 	"lat":"37.8794786",
 	"long":"-122.2998386",
 	"name":"Gilman Brewing Company",
-	"address":"912 Gilman Street Berkeley, CA 94710",
+	"address":"912 Gilman Street, Berkeley, CA 94710",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1504892742677",
 	"day":"Tuesdays",
 	"time":"2021-07-07T01:30:00+0000"
@@ -768,7 +768,7 @@
 	"lat":"37.8062857",
 	"long":"-122.4226849",
 	"name":"Square Pie Guys",
-	"address":"845 Beach Street San Francisco, CA 94109",
+	"address":"845 Beach Street, San Francisco, CA 94109",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1668556805061",
 	"day":"Tuesdays",
 	"time":"2023-01-11T01:30:00+0000"
@@ -777,7 +777,7 @@
 	"lat":"38.5746744",
 	"long":"-121.4825276",
 	"name":"Golden Road Brewing - Sacramento",
-	"address":"1830 L St. Sacramento, CA 95811",
+	"address":"1830 L St., Sacramento, CA 95811",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1647364365246",
 	"day":"Wednesdays",
 	"time":"2022-04-14T01:00:00+0000"
@@ -786,7 +786,7 @@
 	"lat":"38.5799813",
 	"long":"-121.498368",
 	"name":"Tipsy Putt - Sacramento",
-	"address":"630 K St, #120 Sacramento, CA 95814",
+	"address":"630 K St, #120, Sacramento, CA 95814",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1675450376374",
 	"day":"Tuesdays",
 	"time":"2023-01-04T02:00:00+0000"
@@ -795,7 +795,7 @@
 	"lat":"38.1317186",
 	"long":"-122.2585649",
 	"name":"Napa Smith Brewery",
-	"address":"101 Yolano Dr Vallejo, CA 94589",
+	"address":"101 Yolano Dr, Vallejo, CA 94589",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1650045037935",
 	"day":"Thursdays",
 	"time":"2022-04-15T01:00:00+0000"
@@ -813,7 +813,7 @@
 	"lat":"40.7166699",
 	"long":"-111.8942605",
 	"name":"Level Crossing Brewing",
-	"address":"2496 S W Temple South Salt Lake, UT 84115",
+	"address":"2496 S W Temple, South Salt Lake, UT 84115",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1578592568334",
 	"day":"Mondays",
 	"time":"2021-03-09T01:00:00+0000"
@@ -822,7 +822,7 @@
 	"lat":"40.766285",
 	"long":"-111.9042147",
 	"name":"Dave and Buster&#039;s - Salt Lake City",
-	"address":"140 S. Rio Grande St. Salt Lake City, UT 84101",
+	"address":"140 S. Rio Grande St., Salt Lake City, UT 84101",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1655487998826",
 	"day":"Tuesdays",
 	"time":"2022-12-07T02:30:00+0000"
@@ -831,7 +831,7 @@
 	"lat":"37.2697725",
 	"long":"-107.8810186",
 	"name":"The Roost",
-	"address":"128 E College Drive Durango, CO 81301",
+	"address":"128 E College Drive, Durango, CO 81301",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1542053293664",
 	"day":"Wednesdays",
 	"time":"2022-09-01T02:00:00+0000"
@@ -840,7 +840,7 @@
 	"lat":"35.2121867",
 	"long":"-106.6968926",
 	"name":"Tractor Brewing Co (Westside)",
-	"address":"5720 McMahon Blvd Bldg 5 Ste A Albuquerque, NM 87114",
+	"address":"5720 McMahon Blvd Bldg 5 Ste A, Albuquerque, NM 87114",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1527101225394",
 	"day":"Wednesdays",
 	"time":"2021-08-05T01:00:00+0000"
@@ -849,7 +849,7 @@
 	"lat":"35.0942043",
 	"long":"-106.6768448",
 	"name":"El Vado Taproom (Starts on April 4!)",
-	"address":"2500 Central Avenue Southwest Albuquerque, NM 87104",
+	"address":"2500 Central Avenue Southwest, Albuquerque, NM 87104",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1677705105444",
 	"day":"Tuesdays",
 	"time":"2023-04-05T01:00:00+0000"
@@ -858,7 +858,7 @@
 	"lat":"35.0963616",
 	"long":"-106.6705151",
 	"name":"Downshift Brewing Company",
-	"address":"301 Romero St, NW Suite 205 Albuquerque, NM 87104",
+	"address":"301 Romero St, NW Suite 205, Albuquerque, NM 87104",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1669223943073",
 	"day":"Thursdays",
 	"time":"2022-12-30T02:00:00+0000"
@@ -867,7 +867,7 @@
 	"lat":"35.101124",
 	"long":"-106.6642076",
 	"name":"Ponderosa Brewing Company",
-	"address":"1761 Bellamah Ave NW Albuquerque, NM 87104",
+	"address":"1761 Bellamah Ave NW, Albuquerque, NM 87104",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1671495831376",
 	"day":"Wednesdays",
 	"time":"2023-01-26T02:00:00+0000"
@@ -876,7 +876,7 @@
 	"lat":"35.0851434",
 	"long":"-106.6530323",
 	"name":"505 Central Food Hall",
-	"address":"505 Central Ave NW Albuquerque, NM 87102",
+	"address":"505 Central Ave NW, Albuquerque, NM 87102",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1663278584901",
 	"day":"Tuesdays",
 	"time":"2022-10-19T01:00:00+0000"
@@ -885,7 +885,7 @@
 	"lat":"35.1049058",
 	"long":"-106.6510058",
 	"name":"Bow &amp; Arrow Brewing",
-	"address":"608 McKnight Ave. NW Albuquerque, NM 87102",
+	"address":"608 McKnight Ave. NW, Albuquerque, NM 87102",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1652475372694",
 	"day":"Mondays",
 	"time":"2022-06-14T01:00:00+0000"
@@ -894,7 +894,7 @@
 	"lat":"35.102196",
 	"long":"-106.6476898",
 	"name":"Tractor Brewing Wells Park",
-	"address":"1800 4th St, NW Albuquerque, NM 87102",
+	"address":"1800 4th St, NW, Albuquerque, NM 87102",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1626880459769",
 	"day":"Sundays",
 	"time":"2021-08-02T01:00:00+0000"
@@ -903,7 +903,7 @@
 	"lat":"35.1120004",
 	"long":"-106.6466954",
 	"name":"Sunday Service Motor Company (Starts on March 9!)",
-	"address":"2701 4th Street NW Albuquerque, NM 87107",
+	"address":"2701 4th Street NW, Albuquerque, NM 87107",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1674686905917",
 	"day":"Thursdays",
 	"time":"2023-03-10T02:00:00+0000"
@@ -912,7 +912,7 @@
 	"lat":"35.0807077",
 	"long":"-106.621014",
 	"name":"505 Spirits",
-	"address":"105 Harvard Dr SE Albuquerque, NM 87106",
+	"address":"105 Harvard Dr SE, Albuquerque, NM 87106",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1667237144318",
 	"day":"Thursdays",
 	"time":"2022-12-02T02:00:00+0000"
@@ -921,7 +921,7 @@
 	"lat":"35.1057264",
 	"long":"-106.6033436",
 	"name":"Santa Fe Brewing Co. (Albuquerque Taproom)",
-	"address":"3600 Cutler NE Albuquerque, NM 87110",
+	"address":"3600 Cutler NE, Albuquerque, NM 87110",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1526315307279",
 	"day":"Wednesdays",
 	"time":"2021-08-19T02:00:00+0000"
@@ -930,7 +930,7 @@
 	"lat":"35.1841663",
 	"long":"-106.5759739",
 	"name":"Santa Fe Brewing (Tin Can Alley)",
-	"address":"6110 Alameda Blvd NE Suite #1 Albuquerque, NM 87113",
+	"address":"6110 Alameda Blvd NE Suite #1, Albuquerque, NM 87113",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1631309096293",
 	"day":"Mondays",
 	"time":"2021-09-28T01:00:00+0000"
@@ -939,7 +939,7 @@
 	"lat":"35.1232941",
 	"long":"-106.5513077",
 	"name":"Poki Poki Cevicheria (Wyoming Blvd)",
-	"address":"3517 Wyoming Blvd NE Albuquerque, NM 87111",
+	"address":"3517 Wyoming Blvd NE, Albuquerque, NM 87111",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1576783628102",
 	"day":"Tuesdays",
 	"time":"2021-07-28T01:00:00+0000"
@@ -948,7 +948,7 @@
 	"lat":"35.1738465",
 	"long":"-106.4969974",
 	"name":"Boese Brothers Brewpub (NE Heights)",
-	"address":"7849 Tramway Blvd NE Suite C Albuquerque, NM 87122",
+	"address":"7849 Tramway Blvd NE Suite C, Albuquerque, NM 87122",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1624217538614",
 	"day":"Wednesdays",
 	"time":"2021-07-16T01:00:00+0000"
@@ -957,7 +957,7 @@
 	"lat":"35.8829201",
 	"long":"-106.3001869",
 	"name":"Boese Brothers Brewpub (Los Alamos)",
-	"address":"145 Central Park Square, #145 Los Alamos, NM 87544",
+	"address":"145 Central Park Square, #145, Los Alamos, NM 87544",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1648660853546",
 	"day":"Tuesdays",
 	"time":"2022-03-30T02:00:00+0000"
@@ -966,7 +966,7 @@
 	"lat":"31.8132265",
 	"long":"-106.510691",
 	"name":"Glass Half Full @Alamo Drafthouse El Paso",
-	"address":"250 E. Montecillo Blvd. El Paso, TX 79912",
+	"address":"250 E. Montecillo Blvd., El Paso, TX 79912",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1643400053231",
 	"day":"Tuesdays",
 	"time":"2021-07-07T01:00:00+0000"
@@ -975,7 +975,7 @@
 	"lat":"31.7553736",
 	"long":"-106.4924589",
 	"name":"Deadbeach Brewery",
-	"address":"406 S. Durango El Paso, TX 79901",
+	"address":"406 S. Durango, El Paso, TX 79901",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1645468137241",
 	"day":"Sundays",
 	"time":"2022-03-13T23:30:00+0000"
@@ -984,7 +984,7 @@
 	"lat":"31.7617775",
 	"long":"-106.4881631",
 	"name":"Craft &amp; Social",
-	"address":"305 E Franklin Ave. El Paso, TX 79901",
+	"address":"305 E Franklin Ave., El Paso, TX 79901",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1503082456946",
 	"day":"Thursdays",
 	"time":"2021-04-30T02:00:00+0000"
@@ -993,7 +993,7 @@
 	"lat":"35.5965609",
 	"long":"-106.0515842",
 	"name":"Santa Fe Brewing Company",
-	"address":"35 Fire Place Santa Fe, NM 87508",
+	"address":"35 Fire Place, Santa Fe, NM 87508",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1516296063728",
 	"day":"Tuesdays",
 	"time":"2021-07-21T01:00:00+0000"
@@ -1002,7 +1002,7 @@
 	"lat":"31.78394",
 	"long":"-106.4118096",
 	"name":"Dave and Buster&#039;s - El Paso",
-	"address":"6101 Gateway West, Ste. 2006 El Paso, TX 79925",
+	"address":"6101 Gateway West, Ste. 2006, El Paso, TX 79925",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1655488031711",
 	"day":"Tuesdays",
 	"time":"2022-07-13T01:30:00+0000"
@@ -1011,7 +1011,7 @@
 	"lat":"31.7527073",
 	"long":"-106.3173406",
 	"name":"Border City Ale House",
-	"address":"1506 Lee Trevino, Suite# G El Paso, TX 79936",
+	"address":"1506 Lee Trevino, Suite# G, El Paso, TX 79936",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1518454160470",
 	"day":"Wednesdays",
 	"time":"2021-04-15T02:00:00+0000"
@@ -1020,7 +1020,7 @@
 	"lat":"35.6790827",
 	"long":"-105.9491035",
 	"name":"Social Kitchen Bar",
-	"address":"725 Cerillos Road Santa Fe, NM 87507",
+	"address":"725 Cerillos Road, Santa Fe, NM 87507",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1648244334306",
 	"day":"Thursdays",
 	"time":"2022-04-29T01:00:00+0000"
@@ -1029,7 +1029,7 @@
 	"lat":"35.6822789",
 	"long":"-105.9490175",
 	"name":"Second Street Brewery (at The Railyard)",
-	"address":"1607 Paseo De Peralta #10 Santa Fe, NM 87501",
+	"address":"1607 Paseo De Peralta #10, Santa Fe, NM 87501",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1503594003203",
 	"day":"Wednesdays",
 	"time":"2021-07-29T02:00:00+0000"
@@ -1038,7 +1038,7 @@
 	"lat":"35.6871935",
 	"long":"-105.9401998",
 	"name":"Desert Dogs Brewery and Cidery",
-	"address":"112 W San Francisco St, Suite 307 Santa Fe, NM 87501",
+	"address":"112 W San Francisco St, Suite 307, Santa Fe, NM 87501",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1536620195297",
 	"day":"Sundays",
 	"time":"2021-05-17T01:00:00+0000"
@@ -1074,7 +1074,7 @@
 	"lat":"44.0556256",
 	"long":"-123.1098666",
 	"name":"Nelson&#039;s In The Whit",
-	"address":"394 Blair Blvd Eugene, OR 97402",
+	"address":"394 Blair Blvd, Eugene, OR 97402",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1673287344281",
 	"day":"Thursdays",
 	"time":"2023-02-17T02:00:00+0000"
@@ -1083,7 +1083,7 @@
 	"lat":"38.84651",
 	"long":"-104.8620848",
 	"name":"Thunder &amp; Buttons II",
-	"address":"2415 W. Colorado Ave Colorado Springs, CO 80904",
+	"address":"2415 W. Colorado Ave, Colorado Springs, CO 80904",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1503679597470",
 	"day":"Tuesdays",
 	"time":"2021-06-23T01:30:00+0000"
@@ -1092,7 +1092,7 @@
 	"lat":"38.8472939",
 	"long":"-104.8623047",
 	"name":"Mother Muff&#039;s",
-	"address":"2432 W Colorado Ave Colorado Springs, CO 80904",
+	"address":"2432 W Colorado Ave, Colorado Springs, CO 80904",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1503076528432",
 	"day":"Wednesdays",
 	"time":"2020-10-22T02:00:00+0000"
@@ -1101,7 +1101,7 @@
 	"lat":"38.8472939",
 	"long":"-104.8623047",
 	"name":"Mother Muff&#039;s (Sunday)",
-	"address":"2432 W Colorado Ave Colorado Springs, CO 80904",
+	"address":"2432 W Colorado Ave, Colorado Springs, CO 80904",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1501709111631",
 	"day":"Sundays",
 	"time":"2021-07-19T01:00:00+0000"
@@ -1110,7 +1110,7 @@
 	"lat":"38.7899779",
 	"long":"-104.8233608",
 	"name":"Hatch Cover",
-	"address":"252 E Cheyenne Mountain Blvd Colorado Springs, CO 80906",
+	"address":"252 E Cheyenne Mountain Blvd, Colorado Springs, CO 80906",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1645143760199",
 	"day":"Tuesdays",
 	"time":"2022-03-11T02:00:00+0000"
@@ -1119,7 +1119,7 @@
 	"lat":"38.8284557",
 	"long":"-104.8235282",
 	"name":"The Block Bar &amp; Grill",
-	"address":"333 S. Tejon St. Colorado Springs, CO 80903",
+	"address":"333 S. Tejon St., Colorado Springs, CO 80903",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1653349226139",
 	"day":"Thursdays",
 	"time":"2022-06-24T01:30:00+0000"
@@ -1128,7 +1128,7 @@
 	"lat":"38.832959",
 	"long":"-104.823043",
 	"name":"Jack Quinn&#039;s Irish Alehouse &amp; Pub",
-	"address":"21 S. Tejon St. Colorado Springs, CO 80903",
+	"address":"21 S. Tejon St., Colorado Springs, CO 80903",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1504555128786",
 	"day":"Mondays",
 	"time":"2021-05-04T02:00:00+0000"
@@ -1137,7 +1137,7 @@
 	"lat":"38.8392218",
 	"long":"-104.8235869",
 	"name":"Tony&#039;s",
-	"address":"326 North Tejon Street Colorado Springs, CO 80903",
+	"address":"326 North Tejon Street, Colorado Springs, CO 80903",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1503679585970",
 	"day":"Tuesdays",
 	"time":"2020-10-21T02:00:00+0000"
@@ -1146,7 +1146,7 @@
 	"lat":"38.8335303",
 	"long":"-104.819277",
 	"name":"The Well",
-	"address":"315 E Pikes Peak Ave Colorado Springs, CO 80903",
+	"address":"315 E Pikes Peak Ave, Colorado Springs, CO 80903",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1663797555673",
 	"day":"Wednesdays",
 	"time":"2022-10-27T01:00:00+0000"
@@ -1154,8 +1154,8 @@
 	"url":"https://www.geekswhodrink.com/venues/2373216207",
 	"lat":"38.9026605",
 	"long":"-104.8517895",
-	"name":"Upper90 Tavern @ Soccerhaus (Starts on March 20!)",
-	"address":"4845 List Dr Colorado Springs, CO 80919",
+	"name":"Upper90 Tavern @ Soccerhaus",
+	"address":"4845 List Dr, Colorado Springs, CO 80919",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1676412257498",
 	"day":"Mondays",
 	"time":"2023-03-21T01:00:00+0000"
@@ -1164,7 +1164,7 @@
 	"lat":"39.6993571",
 	"long":"-105.3319424",
 	"name":"El Rancho (Starts on March 9!)",
-	"address":"29260 US-40 Evergreen, CO 80439",
+	"address":"29260 US-40, Evergreen, CO 80439",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1677088296561",
 	"day":"Thursdays",
 	"time":"2023-03-10T02:00:00+0000"
@@ -1173,7 +1173,7 @@
 	"lat":"38.8771567",
 	"long":"-104.8201541",
 	"name":"The Public House The Alexander",
-	"address":"3104 N. Nevada Ave Colorado Springs, CO 80907",
+	"address":"3104 N. Nevada Ave, Colorado Springs, CO 80907",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1632331001541",
 	"day":"Thursdays",
 	"time":"2021-10-15T01:00:00+0000"
@@ -1182,7 +1182,7 @@
 	"lat":"38.9275223",
 	"long":"-104.8302922",
 	"name":"Cleats Bar &amp; Grill",
-	"address":"6624 Delmonico Dr Colorado Springs, CO 80919",
+	"address":"6624 Delmonico Dr, Colorado Springs, CO 80919",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1502425192096",
 	"day":"Tuesdays",
 	"time":"2021-06-30T01:00:00+0000"
@@ -1191,7 +1191,7 @@
 	"lat":"38.8796603",
 	"long":"-104.7558463",
 	"name":"Cogstone Brewing Company",
-	"address":"3858 Village Seven Rd Colorado Springs, CO 80917",
+	"address":"3858 Village Seven Rd, Colorado Springs, CO 80917",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1499961237294",
 	"day":"Wednesdays",
 	"time":"2021-05-20T01:00:00+0000"
@@ -1200,7 +1200,7 @@
 	"lat":"38.8955368",
 	"long":"-104.7150483",
 	"name":"The Control Room",
-	"address":"6120 Barnes Road Colorado Springs, CO 80922",
+	"address":"6120 Barnes Road, Colorado Springs, CO 80922",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1629843496251",
 	"day":"Wednesdays",
 	"time":"2021-09-09T01:30:00+0000"
@@ -1209,7 +1209,7 @@
 	"lat":"39.6245717",
 	"long":"-105.0889318",
 	"name":"Pier 8 Cajun Seafood &amp; Bar (Starts on March 16!)",
-	"address":"5066 S Wadsworth Blvd Littleton, CO 80123",
+	"address":"5066 S Wadsworth Blvd, Littleton, CO 80123",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1676592692562",
 	"day":"Thursdays",
 	"time":"2023-03-17T01:00:00+0000"
@@ -1218,7 +1218,7 @@
 	"lat":"39.6578219",
 	"long":"-105.0834708",
 	"name":"LandLocked Ales",
-	"address":"3225 S Wadsworth Blvd Lakewood, CO 80227",
+	"address":"3225 S Wadsworth Blvd, Lakewood, CO 80227",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1507134801040",
 	"day":"Wednesdays",
 	"time":"2021-06-03T01:00:00+0000"
@@ -1227,7 +1227,7 @@
 	"lat":"39.5828082",
 	"long":"-105.0254449",
 	"name":"Glass Half Full @Alamo Drafthouse Littleton (Tuesday)",
-	"address":"7301 S Santa Fe Dr, Unit 850 Littleton, CO 80120",
+	"address":"7301 S Santa Fe Dr, Unit 850, Littleton, CO 80120",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1643399595977",
 	"day":"Tuesdays",
 	"time":"2022-02-16T02:00:00+0000"
@@ -1236,7 +1236,7 @@
 	"lat":"39.5844826",
 	"long":"-105.0253232",
 	"name":"Glass Half Full @Alamo Drafthouse Littleton (Wednesday)",
-	"address":"7301 S Santa Fe Drive Littleton, CO 80120",
+	"address":"7301 S Santa Fe Drive, Littleton, CO 80120",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1647455222456",
 	"day":"Wednesdays",
 	"time":"2022-03-31T01:00:00+0000"
@@ -1245,7 +1245,7 @@
 	"lat":"39.8148042",
 	"long":"-105.1641615",
 	"name":"LUKI Brewery",
-	"address":"14715 W 64th Ave Units A&amp;B Arvada, CO 80004",
+	"address":"14715 W 64th Ave Units A&amp;B, Arvada, CO 80004",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1624467488191",
 	"day":"Tuesdays",
 	"time":"2021-07-28T01:00:00+0000"
@@ -1254,7 +1254,7 @@
 	"lat":"39.375444",
 	"long":"-104.8708703",
 	"name":"BURLY Brewing Company",
-	"address":"680 Atchison Way, Suite 800 Castle Rock, CO 80109",
+	"address":"680 Atchison Way, Suite 800, Castle Rock, CO 80109",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1544554528674",
 	"day":"Tuesdays",
 	"time":"2021-01-13T02:00:00+0000"
@@ -1272,7 +1272,7 @@
 	"lat":"39.7867767",
 	"long":"-105.1087839",
 	"name":"Discovery Tap House",
-	"address":"4990 Kipling St, Suite 7 Wheat Ridge, CO 80033",
+	"address":"4990 Kipling St, Suite 7, Wheat Ridge, CO 80033",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1508952117883",
 	"day":"Thursdays",
 	"time":"2020-11-06T02:00:00+0000"
@@ -1281,7 +1281,7 @@
 	"lat":"40.0149297",
 	"long":"-105.2641215",
 	"name":"Backcountry Pizza and Taphouse",
-	"address":"2319 Arapahoe Ave Boulder, CO 80302",
+	"address":"2319 Arapahoe Ave, Boulder, CO 80302",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1506371036038",
 	"day":"Wednesdays",
 	"time":"2021-03-11T02:00:00+0000"
@@ -1290,7 +1290,7 @@
 	"lat":"39.5655128",
 	"long":"-104.9566716",
 	"name":"Max Taps Co.",
-	"address":"2680 East County Line Rd Suite A Highlands Ranch, CO 80129",
+	"address":"2680 East County Line Rd Suite A, Highlands Ranch, CO 80129",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1507742065790",
 	"day":"Tuesdays",
 	"time":"2020-11-11T02:00:00+0000"
@@ -1299,7 +1299,7 @@
 	"lat":"40.0207662",
 	"long":"-105.2510729",
 	"name":"Twisted Pine Brewing Company",
-	"address":"3201 Walnut Street Boulder, CO 80301",
+	"address":"3201 Walnut Street, Boulder, CO 80301",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1506623058001",
 	"day":"Wednesdays",
 	"time":"2021-05-20T00:00:00+0000"
@@ -1308,7 +1308,7 @@
 	"lat":"39.654104",
 	"long":"-104.9879455",
 	"name":"Brewability",
-	"address":"3445 South Broadway Englewood, CO 80113",
+	"address":"3445 South Broadway, Englewood, CO 80113",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1661188114796",
 	"day":"Tuesdays",
 	"time":"2022-10-05T01:00:00+0000"
@@ -1326,7 +1326,7 @@
 	"lat":"39.7408103",
 	"long":"-105.0425249",
 	"name":"BarFly @Alamo Drafthouse Sloans Lake",
-	"address":"4255 W. Colfax Ave. Denver, CO 80204",
+	"address":"4255 W. Colfax Ave., Denver, CO 80204",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1643399722976",
 	"day":"Mondays",
 	"time":"2022-02-08T02:00:00+0000"
@@ -1335,7 +1335,7 @@
 	"lat":"39.7995416",
 	"long":"-105.0799677",
 	"name":"The Grandview Tavern and Grill",
-	"address":"7427 Grandview Avenue Arvada, CO 80002",
+	"address":"7427 Grandview Avenue, Arvada, CO 80002",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1636744699747",
 	"day":"Tuesdays",
 	"time":"2021-12-08T01:30:00+0000"
@@ -1344,7 +1344,7 @@
 	"lat":"39.8015087",
 	"long":"-105.080965",
 	"name":"Denver Beer Co (Olde Town Arvada)",
-	"address":"5768 Olde Wadsworth Blvd Arvada, CO 80002",
+	"address":"5768 Olde Wadsworth Blvd, Arvada, CO 80002",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1626879561930",
 	"day":"Thursdays",
 	"time":"2021-07-16T02:00:00+0000"
@@ -1353,7 +1353,7 @@
 	"lat":"39.6768189",
 	"long":"-104.996892",
 	"name":"The Table Public House",
-	"address":"2190 S. Platte River Dr. Denver, CO 80223",
+	"address":"2190 S. Platte River Dr., Denver, CO 80223",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1622589342349",
 	"day":"Tuesdays",
 	"time":"2021-06-23T01:00:00+0000"
@@ -1362,7 +1362,7 @@
 	"lat":"39.7438344",
 	"long":"-105.0396686",
 	"name":"The Patio Sloans",
-	"address":"4032 W 17TH AVE Denver, CO 80204",
+	"address":"4032 W 17TH AVE, Denver, CO 80204",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1664217577236",
 	"day":"Thursdays",
 	"time":"2022-10-28T01:00:00+0000"
@@ -1371,7 +1371,7 @@
 	"lat":"39.75868",
 	"long":"-105.0450724",
 	"name":"Greg&#039;s Kitchen &amp; Taphouse",
-	"address":"4433 W 29th Ave Suite 102 Denver, CO 80212",
+	"address":"4433 W 29th Ave Suite 102, Denver, CO 80212",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1649097064709",
 	"day":"Tuesdays",
 	"time":"2022-05-04T01:30:00+0000"
@@ -1380,7 +1380,7 @@
 	"lat":"40.0201565",
 	"long":"-105.2183531",
 	"name":"Upslope Brewing Co.",
-	"address":"1898 S. Flatiron Court Boulder, CO 80301",
+	"address":"1898 S. Flatiron Court, Boulder, CO 80301",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1662486081787",
 	"day":"Tuesdays",
 	"time":"2022-09-28T00:00:00+0000"
@@ -1389,7 +1389,7 @@
 	"lat":"40.0217412",
 	"long":"-105.2194041",
 	"name":"Wild Provisions Beer Project",
-	"address":"2209 Central Ave Boulder, CO 80304",
+	"address":"2209 Central Ave, Boulder, CO 80304",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1664571483478",
 	"day":"Thursdays",
 	"time":"2022-11-04T00:30:00+0000"
@@ -1398,7 +1398,7 @@
 	"lat":"39.9301041",
 	"long":"-105.149424",
 	"name":"Pats-Tap",
-	"address":"1611 Coalton rd Superior, CO 80020",
+	"address":"1611 Coalton rd, Superior, CO 80020",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1672779851843",
 	"day":"Wednesdays",
 	"time":"2023-02-09T02:00:00+0000"
@@ -1407,7 +1407,7 @@
 	"lat":"39.7631566",
 	"long":"-105.0347283",
 	"name":"Oasis Brewing Co",
-	"address":"3257 Lowell Blvd Denver, CO 80211",
+	"address":"3257 Lowell Blvd, Denver, CO 80211",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1537979877932",
 	"day":"Thursdays",
 	"time":"2021-02-05T02:00:00+0000"
@@ -1425,7 +1425,7 @@
 	"lat":"39.7137398",
 	"long":"-104.9877857",
 	"name":"Atomic Cowboy South Broadway (Starts on March 13!)",
-	"address":"141 S Broadway Denver, CO 80209",
+	"address":"141 S Broadway, Denver, CO 80209",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1676063923617",
 	"day":"Mondays",
 	"time":"2023-03-14T01:30:00+0000"
@@ -1434,7 +1434,7 @@
 	"lat":"39.7155585",
 	"long":"-104.9872019",
 	"name":"The Irish Rover",
-	"address":"54 S Broadway Denver, CO 80209",
+	"address":"54 S Broadway, Denver, CO 80209",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1509634552796",
 	"day":"Wednesdays",
 	"time":"2021-06-10T02:00:00+0000"
@@ -1442,8 +1442,8 @@
 	"url":"https://www.geekswhodrink.com/venues/715188153",
 	"lat":"39.7586429",
 	"long":"-105.0153123",
-	"name":"Zuni Street Brewing Co",
-	"address":"2355 W 29th Ave. Denver, CO 80211",
+	"name":"Zuni Street, Brewing Co",
+	"address":"2355 W 29th Ave., Denver, CO 80211",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1509729575109",
 	"day":"Tuesdays",
 	"time":"2021-06-16T01:00:00+0000"
@@ -1452,7 +1452,7 @@
 	"lat":"39.7109648",
 	"long":"-104.982377",
 	"name":"The Molecule Effect",
-	"address":"300 S. Logan Street Denver, CO 80209",
+	"address":"300 S. Logan Street, Denver, CO 80209",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1660348435087",
 	"day":"Thursdays",
 	"time":"2022-09-23T01:00:00+0000"
@@ -1470,7 +1470,7 @@
 	"lat":"39.7580389",
 	"long":"-105.0075509",
 	"name":"Cerveceria Colorado",
-	"address":"1635 Platte Street Denver, CO 80202",
+	"address":"1635 Platte Street, Denver, CO 80202",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1639757470333",
 	"day":"Wednesdays",
 	"time":"2022-01-13T02:00:00+0000"
@@ -1488,7 +1488,7 @@
 	"lat":"39.7117544",
 	"long":"-104.9728669",
 	"name":"The Sportsbook Bar and Grill (Wash Park)",
-	"address":"266B S Downing Street Denver, CO 80209",
+	"address":"266B S Downing Street, Denver, CO 80209",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1522711787218",
 	"day":"Wednesdays",
 	"time":"2020-10-22T01:00:00+0000"
@@ -1497,7 +1497,7 @@
 	"lat":"39.7531593",
 	"long":"-104.9970626",
 	"name":"Denver Milk Market",
-	"address":"1800 Wazee St, #100 Denver, CO 80202",
+	"address":"1800 Wazee St, #100, Denver, CO 80202",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1634927557674",
 	"day":"Thursdays",
 	"time":"2021-11-16T02:00:00+0000"
@@ -1506,7 +1506,7 @@
 	"lat":"39.5972949",
 	"long":"-104.8957705",
 	"name":"Grange Hall",
-	"address":"6575 Greenwood Plaza Blvd Greenwood Village, CO 80111",
+	"address":"6575 Greenwood Plaza Blvd, Greenwood Village, CO 80111",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1658332058648",
 	"day":"Tuesdays",
 	"time":"2022-08-24T01:00:00+0000"
@@ -1515,7 +1515,7 @@
 	"lat":"39.75226",
 	"long":"-104.9913841",
 	"name":"Jagged Mountain Craft Brewery",
-	"address":"1139 20th Street Denver, CO 80202",
+	"address":"1139 20th Street, Denver, CO 80202",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1623076287330",
 	"day":"Thursdays",
 	"time":"2021-06-11T01:30:00+0000"
@@ -1524,7 +1524,7 @@
 	"lat":"39.7562717",
 	"long":"-104.9912319",
 	"name":"Cherry Cricket (Ballpark)",
-	"address":"2220 Blake Street Denver, CO 80205",
+	"address":"2220 Blake Street, Denver, CO 80205",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1663883687143",
 	"day":"Tuesdays",
 	"time":"2022-10-26T01:00:00+0000"
@@ -1533,7 +1533,7 @@
 	"lat":"39.8632067",
 	"long":"-105.062626",
 	"name":"Pandora&#039;s Box @Alamo Drafthouse Westminster",
-	"address":"8905 Westminster Blvd Westminster, CO 80031",
+	"address":"8905 Westminster Blvd, Westminster, CO 80031",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1643399402930",
 	"day":"Wednesdays",
 	"time":"2022-02-24T02:00:00+0000"
@@ -1542,7 +1542,7 @@
 	"lat":"39.7369903",
 	"long":"-104.9721305",
 	"name":"Wild Corgi Pub (check venue for reservations!)",
-	"address":"1223 E 13th Ave Denver, CO 80218",
+	"address":"1223 E 13th Ave, Denver, CO 80218",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1561583046391",
 	"day":"Tuesdays",
 	"time":"2020-11-11T02:30:00+0000"
@@ -1551,7 +1551,7 @@
 	"lat":"39.9760839",
 	"long":"-105.1284965",
 	"name":"Gravity Brewing",
-	"address":"1150 Pine St, Unit B Louisville, CO 80027",
+	"address":"1150 Pine St, Unit B, Louisville, CO 80027",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1516385024729",
 	"day":"Wednesdays",
 	"time":"2020-10-29T00:30:00+0000"
@@ -1560,7 +1560,7 @@
 	"lat":"39.9878512",
 	"long":"-105.1363573",
 	"name":"Mudrock&#039;s Tap &amp; Tavern",
-	"address":"585 E South Boulder Rd. Louisville, CO 80027",
+	"address":"585 E South Boulder Rd., Louisville, CO 80027",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1571691838544",
 	"day":"Tuesdays",
 	"time":"2021-03-17T01:00:00+0000"
@@ -1569,7 +1569,7 @@
 	"lat":"39.627026",
 	"long":"-104.8953453",
 	"name":"Darcy&#039;s Bistro &amp; Pub",
-	"address":"4955 South Ulster Street #103 Denver, CO 80237",
+	"address":"4955 South Ulster Street #103, Denver, CO 80237",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1507611209482",
 	"day":"Saturdays",
 	"time":"2021-09-05T02:00:00+0000"
@@ -1578,7 +1578,7 @@
 	"lat":"39.7551428",
 	"long":"-104.976978",
 	"name":"Spangalang Brewery",
-	"address":"2736 Welton St. STE 102 Denver, CO 80205",
+	"address":"2736 Welton St. STE 102, Denver, CO 80205",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1507611072877",
 	"day":"Thursdays",
 	"time":"2021-05-28T01:00:00+0000"
@@ -1587,7 +1587,7 @@
 	"lat":"39.7641691",
 	"long":"-104.9813152",
 	"name":"Stem Ciders",
-	"address":"3040 Blake Street Suite 101 Denver, CO 80205",
+	"address":"3040 Blake Street Suite 101, Denver, CO 80205",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1507609972718",
 	"day":"Wednesdays",
 	"time":"2021-05-13T02:00:00+0000"
@@ -1596,7 +1596,7 @@
 	"lat":"39.7648113",
 	"long":"-104.9801861",
 	"name":"14er Brewing and Beer Garden",
-	"address":"3120 Blake St. Unit C Denver, CO 80205",
+	"address":"3120 Blake St. Unit C, Denver, CO 80205",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1571873327853",
 	"day":"Tuesdays",
 	"time":"2022-01-12T02:00:00+0000"
@@ -1614,7 +1614,7 @@
 	"lat":"39.5933505",
 	"long":"-104.8568774",
 	"name":"Max Taps Co. Centennial",
-	"address":"11405 E Briarwood Ave #100 Centennial, CO 80112",
+	"address":"11405 E Briarwood Ave #100, Centennial, CO 80112",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1668027195114",
 	"day":"Wednesdays",
 	"time":"2022-03-03T02:00:00+0000"
@@ -1623,7 +1623,7 @@
 	"lat":"39.5933505",
 	"long":"-104.8568774",
 	"name":"Max Taps Co. Centennial (Saturday)",
-	"address":"11405 E Briarwood Ave #100 Centennial, CO 80112",
+	"address":"11405 E Briarwood Ave #100, Centennial, CO 80112",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1661556773649",
 	"day":"Saturdays",
 	"time":"2022-09-18T01:00:00+0000"
@@ -1632,7 +1632,7 @@
 	"lat":"39.7403094",
 	"long":"-104.9491214",
 	"name":"Atomic Cowboy - Colfax",
-	"address":"3237 E. Colfax Ave Denver, CO 80206",
+	"address":"3237 E. Colfax Ave, Denver, CO 80206",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1526597771542",
 	"day":"Tuesdays",
 	"time":"2022-02-23T02:30:00+0000"
@@ -1641,7 +1641,7 @@
 	"lat":"39.7298016",
 	"long":"-104.9410862",
 	"name":"Congress Park Taproom",
-	"address":"833 Colorado Blvd Denver, CO 80206",
+	"address":"833 Colorado Blvd, Denver, CO 80206",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1499960261734",
 	"day":"Wednesdays",
 	"time":"2021-06-10T01:00:00+0000"
@@ -1650,7 +1650,7 @@
 	"lat":"39.7752947",
 	"long":"-104.97054",
 	"name":"Left Hand Brewing Co.",
-	"address":"4180 Wynkoop St, Suite 140 Denver, CO 80216",
+	"address":"4180 Wynkoop St, Suite 140, Denver, CO 80216",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1671835222945",
 	"day":"Tuesdays",
 	"time":"2023-01-25T02:00:00+0000"
@@ -1659,7 +1659,7 @@
 	"lat":"39.999521",
 	"long":"-105.1035763",
 	"name":"Liquid Mechanics Brewing",
-	"address":"297 U.S. 287 #100 Lafayette, CO 80026",
+	"address":"297 U.S. 287 #100, Lafayette, CO 80026",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1507135037243",
 	"day":"Wednesdays",
 	"time":"2021-06-17T00:30:00+0000"
@@ -1668,7 +1668,7 @@
 	"lat":"39.7405923",
 	"long":"-104.9277327",
 	"name":"The Abbey Tavern",
-	"address":"5151 E Colfax Ave Denver, CO 80220",
+	"address":"5151 E Colfax Ave, Denver, CO 80220",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1507134936207",
 	"day":"Wednesdays",
 	"time":"2021-05-13T01:30:00+0000"
@@ -1686,7 +1686,7 @@
 	"lat":"39.9979618",
 	"long":"-105.0908376",
 	"name":"Ghost Box Pizza (Starts on March 14!)",
-	"address":"103 South Public Road Lafayette, CO 80026",
+	"address":"103 South Public Road, Lafayette, CO 80026",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1675453425078",
 	"day":"Tuesdays",
 	"time":"2023-03-15T00:30:00+0000"
@@ -1695,7 +1695,7 @@
 	"lat":"39.720811",
 	"long":"-104.8961811",
 	"name":"Lowry Beer Garden",
-	"address":"7577 E Academy Blvd Denver, CO 80230",
+	"address":"7577 E Academy Blvd, Denver, CO 80230",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1670871610923",
 	"day":"Tuesdays",
 	"time":"2023-01-11T02:00:00+0000"
@@ -1704,7 +1704,7 @@
 	"lat":"39.9157985",
 	"long":"-105.0098562",
 	"name":"30/70 Sports Bar &amp; Grill",
-	"address":"1885 W 120th Ave Westminster, CO 80234",
+	"address":"1885 W 120th Ave, Westminster, CO 80234",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1625436511867",
 	"day":"Tuesdays",
 	"time":"2021-08-04T01:00:00+0000"
@@ -1713,7 +1713,7 @@
 	"lat":"39.7559662",
 	"long":"-104.9013649",
 	"name":"Ephemeral Rotating Taproom",
-	"address":"2301 E 28th Avenue Denver, CO 80205",
+	"address":"2301 E 28th Avenue, Denver, CO 80205",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1659377976498",
 	"day":"Tuesdays",
 	"time":"2022-08-31T01:00:00+0000"
@@ -1731,7 +1731,7 @@
 	"lat":"40.1655686",
 	"long":"-105.1046392",
 	"name":"Abbott &amp; Wallace Distilling",
-	"address":"350 Terry St, Ste 120 Longmont, CO 80501-5492",
+	"address":"350 Terry St, Ste 120, Longmont, CO 80501-5492",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1657838078680",
 	"day":"Thursdays",
 	"time":"2022-08-05T00:30:00+0000"
@@ -1740,7 +1740,7 @@
 	"lat":"40.1600731",
 	"long":"-105.0225932",
 	"name":"Outworld Brewing",
-	"address":"1725 Vista View Drive Ste B Longmont, CO 80504",
+	"address":"1725 Vista View Drive Ste B, Longmont, CO 80504",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1659982744678",
 	"day":"Wednesdays",
 	"time":"2022-09-08T01:00:00+0000"
@@ -1758,7 +1758,7 @@
 	"lat":"40.42271",
 	"long":"-105.0765196",
 	"name":"Krazy Karl&#039;s Pizza Loveland",
-	"address":"225 E 29th St, Unit 100 Loveland, CO 80538",
+	"address":"225 E 29th St, Unit 100, Loveland, CO 80538",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1644601038858",
 	"day":"Wednesdays",
 	"time":"2022-03-03T02:30:00+0000"
@@ -1767,7 +1767,7 @@
 	"lat":"40.5392903",
 	"long":"-105.0752914",
 	"name":"Gilded Goat Brewing Company",
-	"address":"3500 S College Ave #194 Fort Collins, CO 80525",
+	"address":"3500 S College Ave #194, Fort Collins, CO 80525",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1504623294443",
 	"day":"Tuesdays",
 	"time":"2020-10-28T01:00:00+0000"
@@ -1776,7 +1776,7 @@
 	"lat":"40.5215256",
 	"long":"-105.0576137",
 	"name":"Otto Pint Fort Collins",
-	"address":"1100 Oakridge Drive Fort Collins, CO 80525",
+	"address":"1100 Oakridge Drive, Fort Collins, CO 80525",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1636387850678",
 	"day":"Mondays",
 	"time":"2021-11-30T02:00:00+0000"
@@ -1794,7 +1794,7 @@
 	"lat":"40.5512899",
 	"long":"-105.0592287",
 	"name":"Island Grill",
-	"address":"2601 South Lemay Avenue #12 Fort Collins, CO 80525",
+	"address":"2601 South Lemay Avenue #12, Fort Collins, CO 80525",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1504555075715",
 	"day":"Thursdays",
 	"time":"2020-10-23T01:00:00+0000"
@@ -1803,7 +1803,7 @@
 	"lat":"40.5783197",
 	"long":"-105.077433",
 	"name":"Half Fast Subs",
-	"address":"649 S College Ave, unit B Fort Collins, CO 80524",
+	"address":"649 S College Ave, unit B, Fort Collins, CO 80524",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1664557235408",
 	"day":"Thursdays",
 	"time":"2022-10-28T01:30:00+0000"
@@ -1812,7 +1812,7 @@
 	"lat":"40.4572963",
 	"long":"-104.9821431",
 	"name":"Mighty River Brewing",
-	"address":"6383 N Fairgrounds Ave, Suite 200 Windsor, CO 80550",
+	"address":"6383 N Fairgrounds Ave, Suite 200, Windsor, CO 80550",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1659382786244",
 	"day":"Tuesdays",
 	"time":"2022-09-07T01:00:00+0000"
@@ -5484,7 +5484,7 @@
 	"lat":"21.2804015",
 	"long":"-157.8304784",
 	"name":"Aloha Beer Company (Waikiki)",
-	"address":"2155 Kalākaua Ave Honolulu, HI 96815",
+	"address":"2155 Kalākaua Ave, Honolulu, HI 96815",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1669233470703",
 	"day":"Mondays",
 	"time":"2023-01-17T01:00:00+0000"
@@ -5520,7 +5520,7 @@
 	"lat":"21.3783229",
 	"long":"-157.9350934",
 	"name":"Dixie Grill",
-	"address":"99-016 Kamehameha Hwy Ste D Aiea, HI 96701",
+	"address":"99-016 Kamehameha Hwy Ste D, Aiea, HI 96701",
 	"logo_url":"https://s3.amazonaws.com/motherbrain-prod/vlogo_1658869616058",
 	"day":"Mondays",
 	"time":"2022-08-30T01:00:00+0000"
