@@ -17,7 +17,7 @@
             <div class="col-md-8">
 
                 <div class="btn-group float-right" role="group" aria-label="Basic example">
-                    <a type="button" href="{{ route('welcome') }}" class="btn btn-primary"><i class="fa-regular fa-circle-left"></i> Back to Search</a>
+                    <a type="button" href="{{ route('welcome') }}" class="btn btn-primary"><i class="fa-solid fa-circle-left"></i> Back to Search</a>
                     @guest
                         <a type="button" href="{{ route('register') }}" class="btn btn-primary"><i class="fa-regular fa-heart"></i></a>
                     @else
@@ -76,7 +76,7 @@
                     <hr>
                     <div class="comment">
                         <p>{{ $comment->comment }}</p>
-                        <p><i>By {{ $comment->user->name }} on {{ $comment->created_at->format('M d, Y') }}</i></p>
+                        <p><i>By <a href="{{ route('users.show',$comment->user->slug) }}">{{ $comment->user->name }}</a> on {{ $comment->created_at->format('M d, Y') }}</i></p>
                     </div>
                     
                 @endforeach

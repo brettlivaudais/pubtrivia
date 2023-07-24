@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use App\Models\UserFavorite;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
@@ -28,8 +30,11 @@ class UserController extends Controller
     public function show($slug)
     {
         $user = User::where('slug',$slug)->first();
+
+
         return view('users.show', [
             'user' => $user,
+            'locations' => UserFavorite::where('user_id', $user->id)->get()
         ]);
     }
 
@@ -49,7 +54,7 @@ class UserController extends Controller
         }
 
         /*
-'password' => ['nullable', 'string', 'min:8', 'confirmed'],
+            'password' => ['nullable', 'string', 'min:8', 'confirmed'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users,email,'.$user->id],
         
         */
@@ -71,6 +76,31 @@ class UserController extends Controller
             'youtube' => ['nullable', 'string', 'max:255'],
             'team_name' => ['nullable', 'string', 'max:255'],
         ]);
+
+        if($request->new_password != '') {
+            $validatedPasswordData = $request->validate([
+                'new_password' => 'required|string|min:8|confirmed'
+            ]);
+            $validatedData['password'] = Hash::make($request->new_password);
+        }
+
+
+        if ($request->hasFile('image')) {
+            $request->validate([
+                'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048', // Adjust the allowed file types and size as per your requirements
+            ]);
+
+            $image = $request->file('image');
+            $imageName = $user->id . '_' . time() . '.' . $image->getClientOriginalExtension();
+            $image->move(public_path('profile_photos'), $imageName);
+
+            $validatedData['photo_url'] = "/profile_photos/" . $imageName;
+        }
+
+
+
+
+        $validatedData['show_favorites'] = $request->has('show_favorites');
 
         $user->update($validatedData);
 

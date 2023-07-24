@@ -80,7 +80,6 @@
                     <ul class="navbar-nav me-auto">
 
                     </ul>
-
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         <!-- Authentication Links -->
@@ -97,15 +96,28 @@
                                 </li>
                             @endif
                         @else
+
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }}
+                                    @if ($messageCount>0)
+                                        <sup><span class='badge badge-primary'>{{ $messageCount }}</span></sup>
+                                    @endif
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
 
-                                    <a class="dropdown-item" href="{{ route('home') }}">
+                                <a class="dropdown-item" href="{{ route('home') }}">
                                         <i class="fa-solid fa-list"></i>&nbsp;&nbsp;&nbsp;{{ __('Dashboard') }}
+                                    </a>
+                                    <a class="dropdown-item" href="{{ route('messages.mailbox') }}">
+                                        <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;&nbsp;{{ __('Messages') }} 
+                                        
+                                        @if ($messageCount>0)
+                                          &nbsp;<span class='badge badge-primary'>{{ $messageCount }}</span>
+                                        @endif
+
+
                                     </a>
                                     <a class="dropdown-item" href="{{ route((auth()->user()->hasRole('host')?'locations.host':'users.show'),auth()->user()->slug) }}">
                                         <i class="fa-solid fa-user-check"></i>&nbsp;&nbsp;&nbsp;{{ __('View Profile') }}
@@ -133,11 +145,6 @@
         </nav>
 
         <main>
-
-
-        
-
-
             @yield('content')
         </main>
 

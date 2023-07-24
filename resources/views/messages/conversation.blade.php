@@ -21,10 +21,12 @@
         </div>
     @endif
 
-
     <div class="btn-group  float-right">
+        <a type="button" href="{{ route('messages.mailbox') }}" class="btn btn-primary" aria-expanded="false"><i class="fa-solid fa-circle-left"></i> Back to Inbox</a>
+    
+        
         <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-        <i class="fa-regular fa-life-ring"></i>
+        <i class="fa-solid fa-circle-question"></i>
         </button>
         <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Report Harassment</a></li>

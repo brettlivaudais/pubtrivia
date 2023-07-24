@@ -89,4 +89,19 @@ class MessageController extends Controller
         //return response()->json(['success' => 'Message sent successfully']);
         return redirect()->route('messages.conversation',$recipient->slug)->with('success', 'Message sent successfully');
     }
+
+    public function getMessageCount()
+    {
+    
+
+        if (Auth::check()) {
+            $user = Auth::user();
+            $unreadCount = Message::where('recipient_id',$user->id)
+                                ->where('is_read', 0)
+                                ->count();
+            return $unreadCount;
+        } else {
+            return 0;
+        }
+    }
 }

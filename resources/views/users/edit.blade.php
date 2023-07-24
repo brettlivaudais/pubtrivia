@@ -4,7 +4,7 @@
 
 
 
-<form method="POST" action="{{ route('users.update', $user->id) }}">
+<form method="POST" action="{{ route('users.update', $user->id) }}" enctype="multipart/form-data">
     @csrf
     @method('PUT')
     <div class="container">
@@ -20,6 +20,8 @@
                 @elseif ($user->hasRole('host'))
                     @include('users.form_sections.company_information')
                 @endif
+                &nbsp;
+                @include('users.form_sections.security')
             </div>
             <div class="col-md-6">
                 @include('users.form_sections.social_media')

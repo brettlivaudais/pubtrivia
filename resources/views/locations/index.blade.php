@@ -1,14 +1,17 @@
 @extends('layouts.app')
-
 @section('content')
     <div class="container">
-        @if (!is_null($city))
-            <h1>Pub Trivia in {{ $city }}, {{ $state }}</h1>
-        @endif
+        <h1>Pub Trivia Locations by State</h1>
+        <hr/>
         <div class="row" data-masonry='{"percentPosition": true }'>
-            @foreach ($locations as $location)
-                @include('locations.parts.location_box',['location'=>$location])
+            @foreach ($citystate as $state=>$cities)
+                <h2>{{ $state }}</h2>
+                <ul class="list-unstyled d-flex flex-wrap px-4">
+                @foreach($cities as $city=>$count)
+                    <li class="mr-3 mb-3"><a href="{{ route('locations.city',['state'=>$state_lookup[$state], 'city' => $city]) }}">{{ $city }}</a> ({{ $count }})</li>
+                @endforeach
+                </ul>
             @endforeach
         </div> 
     </div>
-@endsectionß
+@endsection

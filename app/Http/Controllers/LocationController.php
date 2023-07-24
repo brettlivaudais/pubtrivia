@@ -20,8 +20,14 @@ class LocationController extends Controller
 {
     public function index()
     {
-        //$locations = Location::select('city,stall();
-        //return view('locations.index', ['locations'=>[], 'city'=>null, 'state' => null]);
+        $states = config('states');
+        $citystate = [];
+        $locations = Location::select('city','state', DB::raw('COUNT(DISTINCT id) as city_count'))->groupBy('city','state')->get();
+        foreach($locations as $result) {
+            $citystate[$states[$result->state]][$result->city] = $result->city_count;
+        }
+        ksort($citystate);
+        return view('locations.index', ['citystate'=>$citystate, 'state_lookup' => array_flip($states)]);
     }
 
     public function city($state,$city)
@@ -29,14 +35,14 @@ class LocationController extends Controller
         $locations = Location::where('city', $city)
                     ->where('state', $state)
                     ->get();
-        return view('locations.index', ['locations'=>$locations, 'city'=>$city, 'state' => $state]);
+        return view('locations.city', ['locations'=>$locations, 'city'=>$city, 'state' => $state]);
     }
 
     public function host($slug)
     {
         $host = User::where('slug',$slug)->first();
         $locations = Location::where('user_id', $host->id)->get();
-        return view('users.show', ['locations'=>$locations, 'user'=>$host]);
+        return view('users.host', ['locations'=>$locations, 'user'=>$host]);
     }
 
 
@@ -246,6 +252,7 @@ class LocationController extends Controller
     public function fixer()
     {
         echo "<pre>";
+        /*
         //find any location without a slug, give it one
         $locations = Location::where('slug', null)->get();
         foreach($locations as $location) {
@@ -292,6 +299,7 @@ class LocationController extends Controller
             $update_location->save();
             
         }
+        */
 
         //fix geeks who drink
         //$locations = Location::where('user_id', 1)->offset(1)->limit(2)->get();

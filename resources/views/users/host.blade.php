@@ -74,10 +74,10 @@
 
             @if($user->show_favorites)
                 <hr>
-                <h2>Favorite Locations</h2>
+                <h2>Trivia Locations</h2>
                 <div class="row" data-masonry='{"percentPosition": true }'>
                     @foreach ($locations as $location)
-                        @include('locations.parts.location_box',['location' => $location->location])
+                        @include('locations.parts.location_box',$location)
                     @endforeach
                 </div>
             @endif

@@ -38,7 +38,8 @@ class User extends Authenticatable
         'discord',
         'youtube',
         'team_name',
-        'slug'
+        'slug',
+        'show_favorites'
     ];
 
     /**
